@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B05707D24E288FE00716477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05707C24E288FE00716477 /* AppDelegate.m */; };
+		9B05708324E288FE00716477 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05708224E288FE00716477 /* ViewController.m */; };
+		9B05708624E288FE00716477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B05708424E288FE00716477 /* Main.storyboard */; };
+		9B05708824E2890100716477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B05708724E2890100716477 /* Assets.xcassets */; };
+		9B05708B24E2890100716477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B05708924E2890100716477 /* LaunchScreen.storyboard */; };
+		9B05708E24E2890100716477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05708D24E2890100716477 /* main.m */; };
+		9B05709924E289A300716477 /* RCSConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05709724E289A300716477 /* RCSConversationViewController.m */; };
+		9B05709A24E289A300716477 /* RCSConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05709824E289A300716477 /* RCSConversationListViewController.m */; };
+		9B25589224E29B420098E916 /* RCSVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B25589124E29B420098E916 /* RCSVoiceCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		494723AE63C1F31611D0665A /* Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig"; path = "Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig"; sourceTree = "<group>"; };
+		9B05707824E288FD00716477 /* rongcloud-ios-imdemo-voicetotext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rongcloud-ios-imdemo-voicetotext.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B05707B24E288FD00716477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B05707C24E288FE00716477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B05708124E288FE00716477 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B05708224E288FE00716477 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B05708524E288FE00716477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B05708724E2890100716477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B05708A24E2890100716477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B05708C24E2890100716477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B05708D24E2890100716477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B05709424E289A300716477 /* RCSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSConfig.h; sourceTree = "<group>"; };
+		9B05709524E289A300716477 /* RCSConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSConversationListViewController.h; sourceTree = "<group>"; };
+		9B05709624E289A300716477 /* RCSConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSConversationViewController.h; sourceTree = "<group>"; };
+		9B05709724E289A300716477 /* RCSConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSConversationViewController.m; sourceTree = "<group>"; };
+		9B05709824E289A300716477 /* RCSConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSConversationListViewController.m; sourceTree = "<group>"; };
+		9B25589024E29B420098E916 /* RCSVoiceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCSVoiceCell.h; sourceTree = "<group>"; };
+		9B25589124E29B420098E916 /* RCSVoiceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCSVoiceCell.m; sourceTree = "<group>"; };
+		E9F19FF2FEBE8E8C890ECA84 /* Pods-rongcloud-ios-imdemo-voicetotext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongcloud-ios-imdemo-voicetotext.debug.xcconfig"; path = "Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B05707524E288FD00716477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E916EFAA06465AF93A2CD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9F19FF2FEBE8E8C890ECA84 /* Pods-rongcloud-ios-imdemo-voicetotext.debug.xcconfig */,
+				494723AE63C1F31611D0665A /* Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79AF026C3CD7E20BC8D850B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B05706F24E288FD00716477 = {
+			isa = PBXGroup;
+			children = (
+				9B05707A24E288FD00716477 /* rongcloud-ios-imdemo-voicetotext */,
+				9B05707924E288FD00716477 /* Products */,
+				27E916EFAA06465AF93A2CD6 /* Pods */,
+				79AF026C3CD7E20BC8D850B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B05707924E288FD00716477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B05707824E288FD00716477 /* rongcloud-ios-imdemo-voicetotext.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B05707A24E288FD00716477 /* rongcloud-ios-imdemo-voicetotext */ = {
+			isa = PBXGroup;
+			children = (
+				9B05709424E289A300716477 /* RCSConfig.h */,
+				9B05709524E289A300716477 /* RCSConversationListViewController.h */,
+				9B05709824E289A300716477 /* RCSConversationListViewController.m */,
+				9B05709624E289A300716477 /* RCSConversationViewController.h */,
+				9B05709724E289A300716477 /* RCSConversationViewController.m */,
+				9B05707B24E288FD00716477 /* AppDelegate.h */,
+				9B05707C24E288FE00716477 /* AppDelegate.m */,
+				9B05708124E288FE00716477 /* ViewController.h */,
+				9B05708224E288FE00716477 /* ViewController.m */,
+				9B05708424E288FE00716477 /* Main.storyboard */,
+				9B05708724E2890100716477 /* Assets.xcassets */,
+				9B05708924E2890100716477 /* LaunchScreen.storyboard */,
+				9B05708C24E2890100716477 /* Info.plist */,
+				9B05708D24E2890100716477 /* main.m */,
+				9B25589024E29B420098E916 /* RCSVoiceCell.h */,
+				9B25589124E29B420098E916 /* RCSVoiceCell.m */,
+			);
+			path = "rongcloud-ios-imdemo-voicetotext";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B05707724E288FD00716477 /* rongcloud-ios-imdemo-voicetotext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B05709124E2890100716477 /* Build configuration list for PBXNativeTarget "rongcloud-ios-imdemo-voicetotext" */;
+			buildPhases = (
+				DD80FBC497984F22F7943C53 /* [CP] Check Pods Manifest.lock */,
+				9B05707424E288FD00716477 /* Sources */,
+				9B05707524E288FD00716477 /* Frameworks */,
+				9B05707624E288FD00716477 /* Resources */,
+				D2DA62733BA90BE92F03CB1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rongcloud-ios-imdemo-voicetotext";
+			productName = "rongcloud-ios-imdemo-voicetotext";
+			productReference = 9B05707824E288FD00716477 /* rongcloud-ios-imdemo-voicetotext.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B05707024E288FD00716477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = RC;
+				TargetAttributes = {
+					9B05707724E288FD00716477 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 9B05707324E288FD00716477 /* Build configuration list for PBXProject "rongcloud-ios-imdemo-voicetotext" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B05706F24E288FD00716477;
+			productRefGroup = 9B05707924E288FD00716477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B05707724E288FD00716477 /* rongcloud-ios-imdemo-voicetotext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B05707624E288FD00716477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B05708B24E2890100716477 /* LaunchScreen.storyboard in Resources */,
+				9B05708824E2890100716477 /* Assets.xcassets in Resources */,
+				9B05708624E288FE00716477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2DA62733BA90BE92F03CB1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD80FBC497984F22F7943C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rongcloud-ios-imdemo-voicetotext-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B05707424E288FD00716477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B05709924E289A300716477 /* RCSConversationViewController.m in Sources */,
+				9B05708324E288FE00716477 /* ViewController.m in Sources */,
+				9B05709A24E289A300716477 /* RCSConversationListViewController.m in Sources */,
+				9B05707D24E288FE00716477 /* AppDelegate.m in Sources */,
+				9B05708E24E2890100716477 /* main.m in Sources */,
+				9B25589224E29B420098E916 /* RCSVoiceCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B05708424E288FE00716477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B05708524E288FE00716477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B05708924E2890100716477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B05708A24E2890100716477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B05708F24E2890100716477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B05709024E2890100716477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B05709224E2890100716477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F19FF2FEBE8E8C890ECA84 /* Pods-rongcloud-ios-imdemo-voicetotext.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rongcloud-ios-imdemo-voicetotext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RC.rongcloud-ios-imdemo-voicetotext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B05709324E2890100716477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494723AE63C1F31611D0665A /* Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rongcloud-ios-imdemo-voicetotext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RC.rongcloud-ios-imdemo-voicetotext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B05707324E288FD00716477 /* Build configuration list for PBXProject "rongcloud-ios-imdemo-voicetotext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B05708F24E2890100716477 /* Debug */,
+				9B05709024E2890100716477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B05709124E2890100716477 /* Build configuration list for PBXNativeTarget "rongcloud-ios-imdemo-voicetotext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B05709224E2890100716477 /* Debug */,
+				9B05709324E2890100716477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B05707024E288FD00716477 /* Project object */;
+}
