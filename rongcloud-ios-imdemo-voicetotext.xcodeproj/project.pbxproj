@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22F36B91C945CC0DC25D7CF5 /* Pods_rongcloud_ios_imdemo_voicetotext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E83D0EE4E40B985C1D4203 /* Pods_rongcloud_ios_imdemo_voicetotext.framework */; };
 		9B05707D24E288FE00716477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05707C24E288FE00716477 /* AppDelegate.m */; };
 		9B05708324E288FE00716477 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05708224E288FE00716477 /* ViewController.m */; };
 		9B05708624E288FE00716477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B05708424E288FE00716477 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		494723AE63C1F31611D0665A /* Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig"; path = "Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext.release.xcconfig"; sourceTree = "<group>"; };
+		67E83D0EE4E40B985C1D4203 /* Pods_rongcloud_ios_imdemo_voicetotext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rongcloud_ios_imdemo_voicetotext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B05707824E288FD00716477 /* rongcloud-ios-imdemo-voicetotext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rongcloud-ios-imdemo-voicetotext.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B05707B24E288FD00716477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B05707C24E288FE00716477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F36B91C945CC0DC25D7CF5 /* Pods_rongcloud_ios_imdemo_voicetotext.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		79AF026C3CD7E20BC8D850B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				67E83D0EE4E40B985C1D4203 /* Pods_rongcloud_ios_imdemo_voicetotext.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,10 +120,12 @@
 			buildConfigurationList = 9B05709124E2890100716477 /* Build configuration list for PBXNativeTarget "rongcloud-ios-imdemo-voicetotext" */;
 			buildPhases = (
 				DD80FBC497984F22F7943C53 /* [CP] Check Pods Manifest.lock */,
+				58D94B712616F74B00C19F08 /* ShellScript */,
 				9B05707424E288FD00716477 /* Sources */,
 				9B05707524E288FD00716477 /* Frameworks */,
 				9B05707624E288FD00716477 /* Resources */,
 				D2DA62733BA90BE92F03CB1D /* [CP] Copy Pods Resources */,
+				C4B8FD8304CC03A9320C130A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +182,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		58D94B712616F74B00C19F08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nsh before_build.sh Podfile rongcloud-ios-imdemo-voicetotext/RCSConfig.h\n";
+		};
+		C4B8FD8304CC03A9320C130A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-voicetotext/Pods-rongcloud-ios-imdemo-voicetotext-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D2DA62733BA90BE92F03CB1D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
